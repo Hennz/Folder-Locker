@@ -109,7 +109,7 @@ namespace SvkLocker
                 FileInfo f2 = new FileInfo("licence.dat");
                 f2.Attributes = FileAttributes.Hidden;
 
-                MessageBox.Show("Password licence. Enter Password to open SvkLocker", "licence", MessageBoxButtons.OK);
+                MessageBox.Show("Password set successfully. Enter Password to open SvkLocker.", "licence", MessageBoxButtons.OK);
                 First frm = new First();
                 this.Hide();
                 frm.ShowDialog();
